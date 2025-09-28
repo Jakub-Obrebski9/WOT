@@ -5,21 +5,44 @@
 .arabic {
 	font-family: 'Amiri';
 	line-height: 1pc;
+	background-color: #1a472a;
+}
+
+.arabic a {
+	color: #fbbf24;
 }
 
 .hanzi {
 	font-family: 'DFKai-SB';
 	line-height: 1pc;
+	background-color: #7c2d12;
+}
+
+.hanzi a {
+	color: #fef3c7;
 }
 
 .palaeo-cyrillic {
 	font-family: 'Ponomar';
 	line-height: 1pc;
+	background-color: #581c87;
+}
+
+.palaeo-cyrillic a {
+	color: #fde047;
 }
 
 .latin, .cyrillic {
 	font-family: 'Century';
 	line-height: 1pc;
+}
+
+.cyrillic {
+	background-color: #1e40af;
+}
+
+.cyrillic a {
+	color: #fef3c7;
 }
 
 .coranian {
@@ -31,21 +54,73 @@
 .hebrew {
 	font-family: Times;
 	line-height: 1pc;
+	background-color: #1e40af;
+}
+
+.hebrew a {
+	color: #f8fafc;
 }
 
 .greek {
 	font-family: 'Gentium Book Plus';
 	line-height: 1pc;
+	background-color: #1e3a8a;
+}
+
+.greek a {
+	color: #fef3c7;
 }
 
 .devanagari {
 	font-family: 'Noto Serif Devanagari';
 	line-height: 1pc;
+	background-color: #ea580c;
+}
+
+.devanagari a {
+	color: #1f2937;
 }
 
 .roman {
 	font-family: 'Junicode';
 	line-height: 1pc;
+	background-color: #7c2d12;
+}
+
+.roman a {
+	color: #fef3c7;
+}
+
+#pl {
+	background-color: #dc2626;
+}
+
+#pl a {
+	color: #f8fafc;
+}
+
+#en {
+	background-color: #1e3a8a;
+}
+
+#en a {
+	color: #f1f5f9;
+}
+
+#de {
+	background-color: #374151;
+}
+
+#de a {
+	color: #fbbf24;
+}
+
+#sv {
+	background-color: #1e40af;
+}
+
+#sv a {
+	color: #fbbf24;
 }
 
 div {
