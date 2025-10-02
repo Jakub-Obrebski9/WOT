@@ -18,13 +18,13 @@
 }
 
 .coranian {
-	font-family: 'Noto Sans Mono';
+	font-family: 'Gentium Book Plus';
 	font-size: 1pc;
 	line-height: 1pc;
 }
 
 .hebrew {
-	font-family: Times;
+	font-family: Noto Serif Hebrew;
 	line-height: 1pc;
 }
 
