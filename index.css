@@ -65,3 +65,8 @@ button a {
 	text-decoration: none;
 	background-color: inherit;
 }
+
+button.arabic {
+	position: relative;
+	top: -2px;
+}
