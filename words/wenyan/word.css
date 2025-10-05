@@ -4,21 +4,21 @@
 }
 
 .word, .word * {
-        background-color: #fed83d;
+	background-color: #fed83d;
 	text-align: left;
 }
 
 .word {
-        margin-top: 30px;
-        margin-left: 50px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 1px;
-        padding-bottom: 10px;
-        max-width: fit-content;
-        border-radius: 20px;
+	margin-top: 30px;
+	margin-left: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	max-width: fit-content;
+	border-radius: 20px;
        	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
-        color: black;
+	color: black;
 }
 
 button {
@@ -30,6 +30,7 @@ button {
 	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
 	transition: all 0.3s ease;
 	font-size: 1.2pc;
+	line-height: 1pc;
 }
 
 button:hover {
