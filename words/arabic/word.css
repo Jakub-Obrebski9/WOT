@@ -1,11 +1,12 @@
 * {
+	direction: rtl;
 	background-color: skyblue;
 	font-family: 'Amiri Quran', 'Noto Color Emoji';
 }
 
 .word, .word * {
         background-color: #fed83d;
-	text-align: left;
+	text-align: right;
 }
 
 .word {
