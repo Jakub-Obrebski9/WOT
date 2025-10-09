@@ -1,11 +1,11 @@
 * {
 	background-color: skyblue;
-	font-family: Noto Serif Hebrew, 'Noto Color Emoji';
+	font-family: 'Noto Serif Hebrew', 'Gentium Book Plus', 'Noto Color Emoji', Times, serif;
 }
 
 .word, .word * {
 	background-color: #fed83d;
-	text-align: left;
+	text-align: right;
 }
 
 .word {
