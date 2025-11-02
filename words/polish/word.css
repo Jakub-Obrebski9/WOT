@@ -62,3 +62,8 @@ button:hover {
 h1 {
 	font-weight: normal;
 }
+
+em {
+	font-style: normal;
+	font-variant: small-caps;
+}
