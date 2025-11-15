@@ -66,4 +66,6 @@ h1 {
 em {
 	font-style: normal;
 	font-variant: small-caps;
+	font-size: 1.25pc;
+	line-height: 1.5pc;
 }
