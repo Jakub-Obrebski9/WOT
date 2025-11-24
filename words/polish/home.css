@@ -30,4 +30,5 @@ button a {
 	color: forestgreen;
 	text-decoration: none;
 	background-color: inherit;
+	user-select: none;
 }
