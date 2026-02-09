@@ -1,8 +1,6 @@
 * {
 	background-color: #87ceeb;
 	font-family: 'Gentium Book Plus', 'Noto Color Emoji';
-	font-size: 1pc;
-	line-height: 1pc;
 }
 
 div {
@@ -18,6 +16,7 @@ button {
 	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
 	transition: all 0.3s ease;
 	font-size: 1.2pc;
+	line-height: 1pc;
 }
 
 button:hover {
