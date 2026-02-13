@@ -2,38 +2,37 @@
 	background-color: skyblue;
 }
 
-.arabic {
+.ara {
 	font-family: 'Amiri Quran';
 	line-height: 1pc;
 }
 
-.hanzi {
+.cun {
+	font-family: 'Noto Sans Cuneiform';
+	line-height: 1pc;
+}
+
+.han {
 	font-family: 'LXGW WenKai TC';
 	line-height: 1pc;
 }
 
-.latin, .cyrillic, .greek {
+.lat, .cyr, .grc {
 	font-family: 'Gentium Book Plus';
 	line-height: 1pc;
 }
 
-.coranian {
-	font-family: 'Gentium Book Plus';
-	font-size: 1pc;
-	line-height: 1pc;
-}
-
-.hebrew {
+.heb {
 	font-family: Noto Serif Hebrew;
 	line-height: 1pc;
 }
 
-.greek {
+.grc {
 	font-family: 'Gentium Book Plus';
 	line-height: 1pc;
 }
 
-.devanagari {
+.ind {
 	font-family: 'Noto Serif Devanagari';
 	line-height: 1pc;
 }
@@ -60,14 +59,14 @@ button:hover {
 	cursor: pointer;
 }
 
-button a {
+button * {
 	color: forestgreen;
 	text-decoration: none;
-	background-color: inherit;
+	background: none;
 	user-select: none;
 }
 
-button.arabic {
+button.ara * {
 	position: relative;
-	top: -2px;
+	top: -6px;
 }
