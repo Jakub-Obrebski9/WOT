@@ -1,19 +1,49 @@
+@font-face {
+	font-family: 'Antinoou';
+	src: url('assets/fonts/Antinoou.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ponomar';
+	src: url('assets/fonts/Ponomar-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Unifraktur';
+	src: url('assets/fonts/UnifrakturMaguntia.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'SBL Hebrew';
+	src: url('assets/fonts/SBL_Hbrw.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Junicode';
+	src: url('assets/fonts/Junicode-Ansund-Regular.otf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Symbola';
+	src: url('assets/fonts/Symbola-13.otf') format('opentype');
+}
+
 * {
 	background-color: skyblue;
 }
 
-.ara {
-	font-family: 'Amiri Quran';
-	line-height: 1pc;
-}
-
-.cop {
-	font-family: 'Noto Serif';
-	line-height: 1pc;
-}
-
 .cun {
 	font-family: 'Noto Sans Cuneiform';
+	line-height: 1pc;
+}
+
+.gen {
+	font-family: 'Gentium Book Plus';
+	line-height: 1pc;
+}
+
+.ara {
+	font-family: 'Amiri Quran';
 	line-height: 1pc;
 }
 
@@ -22,18 +52,48 @@
 	line-height: 1pc;
 }
 
-.lat, .cyr, .grc {
+.kor {
 	font-family: 'Gentium Book Plus';
+	line-height: 1pc;
+}
+
+.cop {
+	font-family: 'Antinoou';
+	line-height: 1pc;
+}
+
+.deu {
+	font-family: 'Unifraktur';
+	line-height: 1pc;
+}
+
+.eng {
+	font-family: 'IM Fell English';
 	line-height: 1pc;
 }
 
 .heb {
-	font-family: Noto Serif Hebrew;
+	font-family: 'SBL Hebrew';
 	line-height: 1pc;
 }
 
 .grc {
-	font-family: 'Gentium Book Plus';
+	font-family: 'EB Garamond';
+	line-height: 1pc;
+}
+
+.lat {
+	font-family: 'Junicode';
+	line-height: 1pc;
+}
+
+.chu {
+	font-family: 'Ponomar';
+	line-height: 1pc;
+}
+
+.rus {
+	font-family: 'Symbola';
 	line-height: 1pc;
 }
 
@@ -74,4 +134,14 @@ button * {
 button.ara * {
 	position: relative;
 	top: -5px;
+}
+
+button.cun * {
+	position: relative;
+	top: -2px;
+}
+
+button.ind * {
+	position: relative;
+	top: 3px;
 }
